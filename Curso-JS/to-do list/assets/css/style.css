@@ -4,6 +4,7 @@
 body {
     margin: 0.5;
     padding: 0.5;
+    background-color: aliceblue;
     font-family: 'Tiro Devanagari Sanskrit', sans-serif;
 }
 
@@ -23,6 +24,7 @@ h1 {
 
 li {
     list-style-type: none;
+    font-size: 18px;
 }
 
 

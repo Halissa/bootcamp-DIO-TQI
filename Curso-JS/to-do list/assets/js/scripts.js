@@ -1,9 +1,9 @@
 function adicionarItemALista(tarefa) {
 
-    /* Lista de tarefas que incluiremos os itens divitados no submit*/
+    /* Lista de tarefas que incluiremos os itens criados no submit*/
     let listaTarefas = document.getElementById('listaTarefasHTML');
  
-    
+
     /* Cria um item da lista html 'li' (servirá de base 
         para armazenar os demais objetos)*/
     let itemLista = document.createElement('li');
@@ -14,7 +14,7 @@ function adicionarItemALista(tarefa) {
 
     /*Criar uma label que armazenarará a String tarefa */
     let label = document.createElement('label');
-    /*Add o valor digitado ao label */
+    /*Adiciona o valor digitado ao label */
     label.appendChild(document.createTextNode(document.getElementById(tarefa).value));
 
 

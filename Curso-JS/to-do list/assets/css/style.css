@@ -1,33 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 body {
-    margin: 0.5;
-    padding: 0.5;
-    background-color: aliceblue;
-    font-family: 'Tiro Devanagari Sanskrit', sans-serif;
+    margin: 20px;
+    padding: 5px;
+    background-color: #FEBDC6;
+    color: #020C2B;
+    font-family: 'Sedgwick Ave', 'Sedgwick';
 }
 
 h1 {
-    letter-spacing: 0.7px;
+    padding: 10px;
+    font-size: 35px;
+    letter-spacing: 1px;
 }
+
+
+
+#tarefa {
+    max-width: 80%;
+    font-size: 20px;
+    background-color: #FFE08B;
+    color: #020C2B;
+    border-radius: 8%;
+    border-style: double;
+    border-color: #8D555E;
+}
+
+
 
 #button-submit {
-    font-size: 15px;
-    letter-spacing: 0.7px;
-    text-transform: lowercase;
+    max-width: 12%;
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    letter-spacing: 1.5px;
+    font-size: 13px;
     color: aliceblue;
-    background-color: black;
-    border-radius: 30%;
-    
+    background-color: #8D555E;
+    border-radius: 50%;
+    border-style: none;
 }
 
-li {
-    list-style-type: none;
-    font-size: 18px;
+
+
+.container-tarefas {
+    max-width: 80vw;
+    width: 300px;
+    height: 400px;
+    margin-top: 16px;
+    font-family: 'Pacifico';
+    font-size: 20px;
+    background-color: #FFE08B;
+    border-radius: 1.5%;
+    border-style: double;
+    border-color: #8D555E;
+    
 }
 
 
 input[type=checkbox]:checked ~label {
     text-decoration: line-through;
 }
+
+
+li {
+    list-style-type: none;
+}
+
+

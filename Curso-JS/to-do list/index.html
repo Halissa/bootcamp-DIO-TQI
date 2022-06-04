@@ -9,13 +9,16 @@
     <script src="assets/js/scripts.js"></script>
 </head>
 <body>
-    <h1>To-do list</h1>
+    <h1>To-do List</h1>
+    <div class="container-lista-tarefas">
+        <input type="text" id="tarefa">
+        <input type="submit" id="button-submit" onclick="adicionarItemALista('tarefa')" value="Add">
+        
+        <div class="container-tarefas">
+            <ul id="listaTarefasHTML"></ul>
+        </div>
+        <div class="card"></div> 
 
-    <input type="text" id="tarefa">
-    <input type="submit" id="button-submit" onclick="adicionarItemALista('tarefa')" value="Adicionar">
-
-
-    <ul id="listaTarefasHTML"></ul>
-    
+    </div>
 </body>
 </html>

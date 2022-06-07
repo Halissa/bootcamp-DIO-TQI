@@ -21,11 +21,16 @@ h1 {
 #tarefa {
     max-width: 80%;
     font-size: 20px;
-    background-color: #FFE08B;
+    background-color: #ffe08b86;
     color: #020C2B;
     border-radius: 8%;
     border-style: double;
     border-color: #8D555E;
+}
+
+#tarefa:hover{
+    background-color: #FFE08B;
+    transition: 0.7s;
 }
 
 
@@ -43,6 +48,10 @@ h1 {
     border-style: none;
 }
 
+#button-submit:hover {
+    height: 41px;
+    transition: 0.5s;
+}
 
 
 .container-tarefas {
@@ -52,10 +61,16 @@ h1 {
     margin-top: 16px;
     font-family: 'Pacifico';
     font-size: 20px;
-    background-color: #FFE08B;
+    background-color: #ffe08b86;
     border-radius: 1.5%;
     border-style: double;
     border-color: #8D555E;
+    
+}
+
+.container-tarefas:hover {
+    background-color: #FFE08B;
+    transition: 0.7s;
     
 }
 

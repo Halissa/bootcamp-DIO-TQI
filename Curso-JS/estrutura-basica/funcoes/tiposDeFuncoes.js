@@ -49,3 +49,17 @@ let subtr = function(num1, num2) {
 let resultSoma = calc(soma, 1, 2);
 let resultSubtr = calc(subtr, 1, 2);
 
+
+/*Arrow function -
+Função que permite um retorno implicito sem necessidade 
+de usar a palavra return. Abaixo temos o exemplo com 2
+parametros */
+const sum = (a, b) => a + b;
+// console.log(sum(4, 6));
+
+
+/*Arrow function -
+Exemplo com 1 parametro*/
+const num = a => a;
+// console.log(num(5));
+

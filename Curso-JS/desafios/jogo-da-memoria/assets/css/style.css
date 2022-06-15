@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #498c9e;
+}
+
+
+.jogo-da-memoria {
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+
+.carta {
+    height: calc(33.333% - 10px);
+    width: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px #0000;
+    cursor: pointer;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .9s;
+}
+
+.carta:active {
+    scale: (0.97);
+    transition: transform 0.3s;
+}
+
+.carta-verso,
+.carta-frente {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    background: #e8b479;
+    backface-visibility: hidden;
+}
+
+
+
+.carta-frente {
+    transform: rotateY(180deg);
+}
+
+.carta.virar {
+    transform: rotateY(180deg);
+}
